@@ -35,7 +35,8 @@ const Index = () => {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
         
         <div className="container mx-auto px-4 max-w-6xl relative">
-          <div className="max-w-2xl">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
               <Shield className="h-3.5 w-3.5" />
               CRP: 00/000000
@@ -73,6 +74,16 @@ const Index = () => {
               <span className="flex items-center gap-2"><Heart className="h-4 w-4 text-primary" /> Acolhimento Humanizado</span>
             </div>
           </div>
+          <div className="hidden md:flex justify-center">
+            <div className="relative">
+              <div className="aspect-[3/4] w-80 rounded-2xl overflow-hidden shadow-[var(--shadow-card)]">
+                <img src="/images/adriana-1.png" alt="Psicóloga Adriana Potye" className="w-full h-full object-cover" />
+              </div>
+              <div className="absolute -bottom-4 -left-4 w-24 h-24 rounded-2xl bg-primary/20 -z-10" />
+              <div className="absolute -top-4 -right-4 w-16 h-16 rounded-2xl bg-accent/20 -z-10" />
+            </div>
+          </div>
+          </div>
         </div>
       </section>
 
@@ -82,14 +93,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
             <div className="relative">
               <div className="aspect-[4/5] rounded-2xl bg-secondary overflow-hidden shadow-[var(--shadow-card)]">
-                <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-primary/10 to-accent/10">
-                  <div className="text-center p-8">
-                    <div className="w-32 h-32 rounded-full bg-primary/15 mx-auto mb-4 flex items-center justify-center">
-                      <Leaf className="h-16 w-16 text-primary/60" />
-                    </div>
-                    <p className="text-sm text-muted-foreground" style={{ fontFamily: "'DM Sans', sans-serif" }}>Foto da Dra. Adriana</p>
-                  </div>
-                </div>
+                <img src="/images/adriana-2.png" alt="Adriana Potye - Psicóloga Clínica" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-2xl bg-accent/20 -z-10" />
             </div>
