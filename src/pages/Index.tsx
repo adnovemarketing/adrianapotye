@@ -1,7 +1,7 @@
 import { Phone, MessageCircle, Brain, Heart, Shield, Clock, MapPin, CheckCircle, ArrowRight, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
-const WHATSAPP_URL = "https://wa.me/551931405902?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dra.%20Adriana%20Potye.";
+const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=5519981196206&text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+com+a+Dra.+Adriana+Potye.&type=phone_number&app_absent=0";
 
 const Index = () => {
   return (
