@@ -298,10 +298,10 @@ const Index = () => {
                 Agendar pelo WhatsApp
               </Button>
             </a>
-            <a href="tel:+551931405902">
+            <a href="tel:+5519981196206">
               <Button variant="outline" size="lg" className="gap-2 rounded-full text-base px-8">
                 <Phone className="h-5 w-5" />
-                (19) 3140-5902
+                (19) 98119-6206
               </Button>
             </a>
           </div>
@@ -319,7 +319,7 @@ const Index = () => {
             </div>
             <div className="flex items-center gap-4">
               <span className="flex items-center gap-1"><MapPin className="h-3.5 w-3.5" /> Atendimento Online</span>
-              <span className="flex items-center gap-1"><Phone className="h-3.5 w-3.5" /> (19) 3140-5902</span>
+              <span className="flex items-center gap-1"><Phone className="h-3.5 w-3.5" /> (19) 98119-6206</span>
             </div>
           </div>
           <p className="text-center text-xs text-muted-foreground mt-6" style={{ fontFamily: "'DM Sans', sans-serif" }}>
