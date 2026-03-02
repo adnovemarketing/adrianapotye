@@ -21,7 +21,7 @@ const Index = () => {
           </nav>
           <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
             <Button size="sm" className="gap-2 rounded-full bg-primary text-primary-foreground hover:bg-primary/90">
-              <MessageCircle className="h-4 w-4" />
+              <img src="/images/whatsapp-icon.png" alt="WhatsApp" className="h-4 w-4" />
               <span className="hidden sm:inline">Agendar</span>
             </Button>
           </a>
@@ -56,7 +56,7 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="gap-2 rounded-full text-base px-8 bg-primary text-primary-foreground hover:bg-primary/90 shadow-[var(--shadow-soft)]">
-                  <MessageCircle className="h-5 w-5" />
+                   <img src="/images/whatsapp-icon.png" alt="WhatsApp" className="h-5 w-5" />
                   Agendar Consulta Online
                 </Button>
               </a>
@@ -189,7 +189,7 @@ const Index = () => {
           <div className="text-center mt-12">
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="gap-2 rounded-full text-base px-8 bg-primary text-primary-foreground hover:bg-primary/90">
-                <MessageCircle className="h-5 w-5" />
+                 <img src="/images/whatsapp-icon.png" alt="WhatsApp" className="h-5 w-5" />
                 Agendar Minha Primeira Sessão
               </Button>
             </a>
@@ -294,7 +294,7 @@ const Index = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="gap-2 rounded-full text-base px-8 bg-primary text-primary-foreground hover:bg-primary/90 shadow-[var(--shadow-soft)]">
-                <MessageCircle className="h-5 w-5" />
+                <img src="/images/whatsapp-icon.png" alt="WhatsApp" className="h-5 w-5" />
                 Agendar pelo WhatsApp
               </Button>
             </a>
@@ -336,7 +336,7 @@ const Index = () => {
         className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[hsl(142_70%_45%)] hover:bg-[hsl(142_70%_40%)] text-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:scale-110"
         aria-label="Agendar pelo WhatsApp"
       >
-        <MessageCircle className="h-6 w-6" />
+        <img src="/images/whatsapp-icon.png" alt="WhatsApp" className="h-7 w-7" />
       </a>
     </div>
   );
