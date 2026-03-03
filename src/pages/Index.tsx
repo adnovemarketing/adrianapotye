@@ -144,7 +144,7 @@ const Index = () => {
               { icon: Shield, title: "Medos e Fobias", desc: "Fobias específicas, medo social e situações que geram evitação e sofrimento significativo." },
               { icon: Heart, title: "Autoestima e Autoconfiança", desc: "Trabalho de fortalecimento do autoconhecimento e construção de uma relação mais saudável consigo mesmo(a)." },
               { icon: Brain, title: "Estresse e Burnout", desc: "Esgotamento emocional, sobrecarga de trabalho e dificuldade em estabelecer limites saudáveis." },
-              { icon: Heart, title: "Regulação Emocional", desc: "Desenvolvimento de habilidades para reconhecer, compreender e gerenciar emoções de forma equilibrada." },
+              
               { icon: Shield, title: "Insônia e Sono", desc: "Dificuldades para dormir, pensamentos acelerados à noite e padrões de sono desregulados." },
               { icon: Brain, title: "Depressão", desc: "Tristeza persistente, perda de interesse nas atividades, alterações no apetite e dificuldade de concentração que impactam o dia a dia." },
               { icon: Heart, title: "Problemas Interpessoais", desc: "Dificuldades nos relacionamentos, comunicação conflituosa e padrões que geram sofrimento nas relações pessoais e profissionais." },
