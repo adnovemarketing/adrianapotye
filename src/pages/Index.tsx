@@ -39,18 +39,16 @@ const Index = () => {
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
               <Shield className="h-3.5 w-3.5" />
-              CRP: 00/000000
+              CRP: 06/47218-8
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
-              Você não precisa enfrentar a{" "}
-              <span className="text-primary">ansiedade</span> sozinho(a)
+              Sua saúde mental merece o mesmo{" "}
+              <span className="text-primary">cuidado</span> que você dedica a todo o resto
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-xl" style={{ fontFamily: "'DM Sans', sans-serif" }}>
-              Psicóloga especialista em medos, fobias e transtornos de ansiedade. 
-              Através da Terapia Cognitivo-Comportamental, juntos construímos um caminho 
-              para uma vida com mais leveza e segurança.
+              Viver com qualidade vai além da ausência de sintomas; trata-se de desenvolver regulação emocional e clareza para tomar decisões. Através da Terapia Cognitivo-Comportamental, ofereço um espaço ético e seguro para você fortalecer seus recursos internos e redescobrir sua melhor versão.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
