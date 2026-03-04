@@ -43,12 +43,12 @@ const Index = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
-              Sua saúde mental merece o mesmo{" "}
-              <span className="text-primary">cuidado</span> que você dedica a todo o resto
+              Você não precisa carregar o peso dos seus{" "}
+              <span className="text-primary">desafios</span> sozinho(a)
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-xl" style={{ fontFamily: "'DM Sans', sans-serif" }}>
-              Viver com qualidade vai além da ausência de sintomas; trata-se de desenvolver regulação emocional e clareza para tomar decisões. Através da Terapia Cognitivo-Comportamental, ofereço um espaço ético e seguro para você fortalecer seus recursos internos e redescobrir sua melhor versão.
+              Psicóloga especialista no manejo do estresse, ansiedade, depressão e desenvolvimento da autoestima. Através da Terapia Cognitivo-Comportamental, construímos juntos um caminho para uma vida com mais leveza, equilíbrio e segurança.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
@@ -104,17 +104,10 @@ const Index = () => {
               <div className="space-y-4 text-muted-foreground leading-relaxed" style={{ fontFamily: "'DM Sans', sans-serif" }}>
                 <p>
                   Sou psicóloga clínica com especialização em Terapia Cognitivo-Comportamental (TCC), 
-                  uma abordagem cientificamente comprovada para o tratamento de transtornos de ansiedade, 
-                  medos e fobias.
-                </p>
-                <p>
-                  Meu compromisso é criar um espaço seguro e acolhedor onde você possa se sentir 
-                  à vontade para explorar suas emoções, compreender seus padrões de pensamento 
-                  e desenvolver ferramentas práticas para lidar com os desafios do dia a dia.
-                </p>
-                <p>
-                  Acredito que cada pessoa possui recursos internos para a mudança — e a terapia 
-                  é o caminho para acessá-los com clareza e confiança.
+                  uma abordagem padrão-ouro para o tratamento de uma ampla gama de demandas. Meu trabalho 
+                  foca em auxiliar pacientes que buscam superar quadros de ansiedade, depressão e estresse, 
+                  bem como aqueles que desejam desenvolver melhores habilidades sociais e equilíbrio emocional 
+                  para lidar com as pressões do cotidiano e do perfeccionismo.
                 </p>
               </div>
             </div>
@@ -231,12 +224,15 @@ const Index = () => {
 
             <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-card)]">
               <h3 className="text-xl font-semibold text-foreground mb-6">Para quem a TCC é indicada?</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed mb-6" style={{ fontFamily: "'DM Sans', sans-serif" }}>
+                A TCC é uma das abordagens mais eficazes e validadas cientificamente para o manejo de desafios contemporâneos, como depressão, estresse e perfeccionismo, além de ser fundamental no fortalecimento da autoestima e na resolução de conflitos em relacionamentos. Através do foco na reestruturação cognitiva, trabalhamos a relação direta entre seus pensamentos, emoções e comportamentos para gerar mudanças duradouras.
+              </p>
               <div className="space-y-4" style={{ fontFamily: "'DM Sans', sans-serif" }}>
                 {[
-                  "Pessoas que sofrem com ansiedade constante ou crises de pânico",
-                  "Quem tem medos ou fobias que limitam atividades do dia a dia",
-                  "Profissionais em situação de estresse ou esgotamento",
-                  "Qualquer pessoa buscando autoconhecimento e equilíbrio emocional",
+                  "Pessoas que enfrentam depressão, estresse ou perfeccionismo",
+                  "Quem busca fortalecer a autoestima e a regulação emocional",
+                  "Profissionais em situação de esgotamento ou sobrecarga",
+                  "Qualquer pessoa buscando equilíbrio nos relacionamentos e autoconhecimento",
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3 text-muted-foreground text-sm p-3 rounded-xl bg-secondary/50">
                     <ArrowRight className="h-4 w-4 text-primary mt-0.5 shrink-0" />
