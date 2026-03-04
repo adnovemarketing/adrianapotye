@@ -43,19 +43,19 @@ const Index = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6">
-              Você não precisa carregar o peso dos seus{" "}
-              <span className="text-primary">desafios</span> sozinho(a)
+              Sua saúde mental merece o mesmo{" "}
+              <span className="text-primary">cuidado</span> que você dedica a todo o resto.
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-xl" style={{ fontFamily: "'DM Sans', sans-serif" }}>
-              Psicóloga especialista no manejo do estresse, ansiedade, depressão e desenvolvimento da autoestima. Através da Terapia Cognitivo-Comportamental, construímos juntos um caminho para uma vida com mais leveza, equilíbrio e segurança.
+              Viver com qualidade vai além da ausência de sintomas; trata-se de desenvolver regulação emocional e clareza para tomar decisões. Através da Terapia Cognitivo-Comportamental, ofereço um espaço ético e seguro para você fortalecer seus recursos internos e redescobrir sua melhor versão.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="gap-2 rounded-full text-base px-8 bg-primary text-primary-foreground hover:bg-primary/90 shadow-[var(--shadow-soft)]">
                    <img src="/images/whatsapp-icon.png" alt="WhatsApp" className="h-5 w-5" />
-                  Agendar Consulta Online
+                  Agendar Consulta
                 </Button>
               </a>
               <a href="#como-funciona">
