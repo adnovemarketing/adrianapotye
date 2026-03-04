@@ -205,7 +205,7 @@ const Index = () => {
                    A TCC é uma das abordagens mais eficazes e validadas cientificamente para o tratamento de desafios que vão muito além da ansiedade, como a depressão, o estresse crônico e o perfeccionismo exigente. Ao trabalhar a relação direta entre pensamentos, emoções e comportamentos, ela oferece ferramentas concretas para que você desenvolva regulação emocional e resolva problemas de relacionamento, recuperando a leveza e a segurança no dia a dia.
                 </p>
               </div>
-              <ul className="mt-6 space-y-3" style={{ fontFamily: "'DM Sans', sans-serif" }}>
+              <ul className="mt-8 space-y-3" style={{ fontFamily: "'DM Sans', sans-serif" }}>
                 {[
                   "Resultados comprovados por pesquisas científicas",
                   "Foco em soluções práticas e aplicáveis no dia a dia",
