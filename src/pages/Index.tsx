@@ -202,9 +202,7 @@ const Index = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed" style={{ fontFamily: "'DM Sans', sans-serif" }}>
                 <p>
-                  A TCC é uma das abordagens mais eficazes e validadas cientificamente 
-                  para o tratamento de ansiedade, medos e fobias. Ela trabalha a relação 
-                  entre pensamentos, emoções e comportamentos.
+                   A TCC é uma das abordagens mais eficazes e validadas cientificamente para o tratamento de desafios que vão muito além da ansiedade, como a depressão, o estresse crônico e o perfeccionismo exigente. Ao trabalhar a relação direta entre pensamentos, emoções e comportamentos, ela oferece ferramentas concretas para que você desenvolva regulação emocional e resolva problemas de relacionamento, recuperando a leveza e a segurança no dia a dia.
                 </p>
               </div>
               <ul className="mt-6 space-y-3" style={{ fontFamily: "'DM Sans', sans-serif" }}>
@@ -225,7 +223,7 @@ const Index = () => {
             <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-card)]">
               <h3 className="text-xl font-semibold text-foreground mb-6">Para quem a TCC é indicada?</h3>
               <p className="text-muted-foreground text-sm leading-relaxed mb-6" style={{ fontFamily: "'DM Sans', sans-serif" }}>
-                A TCC é uma das abordagens mais eficazes e validadas cientificamente para o manejo de desafios contemporâneos, como depressão, estresse e perfeccionismo, além de ser fundamental no fortalecimento da autoestima e na resolução de conflitos em relacionamentos. Através do foco na reestruturação cognitiva, trabalhamos a relação direta entre seus pensamentos, emoções e comportamentos para gerar mudanças duradouras.
+                A TCC é uma das abordagens mais eficazes e validadas cientificamente para o manejo de desafios contemporâneos, como depressão, ansiedade, estresse e perfeccionismo, além de ser fundamental no fortalecimento da autoestima e na resolução de conflitos em relacionamentos. Através do foco na reestruturação cognitiva, trabalhamos a relação direta entre seus pensamentos, emoções e comportamentos para gerar mudanças duradouras.
               </p>
               <div className="space-y-4" style={{ fontFamily: "'DM Sans', sans-serif" }}>
                 {[
