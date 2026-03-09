@@ -72,7 +72,7 @@ const Index = () => {
               <span className="flex items-center gap-2"><Heart className="h-4 w-4 text-primary" /> Acolhimento Humanizado</span>
             </div>
           </div>
-          <div className="hidden md:flex justify-center">
+          <div className="hidden md:flex justify-center items-start -mt-4">
             <div className="relative">
               <div className="aspect-[3/4] w-96 rounded-2xl overflow-hidden shadow-[var(--shadow-card)]">
                 <img src="/images/adriana-1.png" alt="Psicóloga Adriana Potye" className="w-full h-full object-cover object-top" />
