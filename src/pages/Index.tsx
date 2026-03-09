@@ -74,7 +74,7 @@ const Index = () => {
           </div>
           <div className="hidden md:flex justify-center">
             <div className="relative">
-              <div className="aspect-[3/4] w-80 rounded-2xl overflow-hidden shadow-[var(--shadow-card)]">
+              <div className="aspect-[3/4] w-96 rounded-2xl overflow-hidden shadow-[var(--shadow-card)]">
                 <img src="/images/adriana-1.png" alt="Psicóloga Adriana Potye" className="w-full h-full object-cover object-top" />
               </div>
               <div className="absolute -bottom-4 -left-4 w-24 h-24 rounded-2xl bg-primary/20 -z-10" />
