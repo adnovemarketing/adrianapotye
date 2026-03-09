@@ -320,7 +320,7 @@ const Index = () => {
           <p className="text-center text-xs text-muted-foreground mt-6" style={{ fontFamily: "'DM Sans', sans-serif" }}>
             © {new Date().getFullYear()} Adriana Potye Psicóloga. Todos os direitos reservados.
           </p>
-          <p className="text-center text-xs text-muted-foreground mt-2" style={{ fontFamily: "'DM Sans', sans-serif" }}>
+          <p className="text-center text-sm text-muted-foreground mt-2" style={{ fontFamily: "'DM Sans', sans-serif" }}>
             Criado por <a href="https://www.adnove.com.br/" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary transition-colors">AdNove Marketing</a>
           </p>
         </div>
