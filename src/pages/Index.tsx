@@ -310,7 +310,7 @@ const Index = () => {
             <div className="flex items-center gap-2">
               <Leaf className="h-5 w-5 text-primary" />
               <span className="font-serif font-semibold text-foreground">Adriana Potye</span>
-              <span className="text-muted-foreground">— Psicóloga | CRP: 00/000000</span>
+              <span className="text-muted-foreground">— Psicóloga | CRP: 06/47218-8</span>
             </div>
             <div className="flex items-center gap-4">
               <span className="flex items-center gap-1"><MapPin className="h-3.5 w-3.5" /> Atendimento Online</span>
