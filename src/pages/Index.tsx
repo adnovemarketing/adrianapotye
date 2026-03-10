@@ -89,14 +89,14 @@ const Index = () => {
       <section id="sobre" className="py-20 md:py-28">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
-            <div className="relative">
+            <div className="relative order-2 md:order-1">
               <div className="aspect-[4/5] rounded-2xl bg-secondary overflow-hidden shadow-[var(--shadow-card)]">
                 <img src="/images/adriana-2.png" alt="Adriana Potye - Psicóloga Clínica" className="w-full h-full object-cover" />
               </div>
               <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-2xl bg-accent/20 -z-10" />
             </div>
 
-            <div>
+            <div className="order-1 md:order-2">
               <p className="text-primary text-sm font-semibold tracking-wider uppercase mb-3" style={{ fontFamily: "'DM Sans', sans-serif" }}>Sobre Mim</p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 Adriana Potye
